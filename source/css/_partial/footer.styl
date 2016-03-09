@@ -1,0 +1,33 @@
+.mb-search
+  display: none
+
+#footer
+  margin: 4em 0
+  font-size: 70%
+  display: block
+  *zoom: 1
+  line-height: 1.6
+  display: flex;
+  flex-direction: row-reverse;
+  &:after
+    display: block
+    visibility: hidden
+    font-size: 0
+    height: 0
+    clear: both
+    content: "."
+  .footer-blog-title
+    display: inline-block
+    font-size: 120%
+    padding-bottom: .2em
+    letter-spacing: .2em
+    margin: 1em 1.5em 0 0
+    a
+      position: relative
+      left: .1em
+      padding: .4em 0
+      color: color-link
+    &:hover
+      border-color: color-link
+  .copyright
+    display: block

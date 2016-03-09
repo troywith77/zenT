@@ -1,0 +1,17 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  Github: http://www.github.com/troywith77
+  About: http://tangrui.win/dove/resume/
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.ico
+
+duoshuo_shortname: troywith77

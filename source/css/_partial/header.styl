@@ -1,0 +1,101 @@
+#header
+  display: block
+  margin: 2em 0 4em
+  position: relative
+  *zoom: 1
+  &:after
+    display: block
+    visibility: hidden
+    font-size: 0
+    height: 0
+    clear: both
+    content: "."
+
+.blog-title
+  display: inline-block
+  font-size: 1.8em
+  font-family: Source Code Pro
+  padding-bottom: .2em
+  letter-spacing: .2em
+  margin: 20px 0
+  &:hover
+    border-color: color-link
+    a
+      color: color-link
+  a
+    position: relative
+    left: .1em
+    padding: .4em 0
+    color: #333
+
+.mobile-nav-panel
+  display: none
+  padding: 15px 0 0
+  .icon-reorder
+    cursor: pointer
+    display: inline-block
+    width: 18px
+    height: 17px
+    background: url('/images/icon-reorder@2x.png') no-repeat 0 0
+    background-size: 18px 17px
+
+.nav
+  width: 100%
+  margin: 10px 0
+  font-size: 85%
+  text-transform: uppercase
+  position: relative
+  ul
+    display: flex
+    justify-content: space-between
+    *zoom: 1
+    margin: 0
+    padding: 0
+    &:after
+      display: block
+      visibility: hidden
+      font-size: 0
+      height: 0;
+      clear: both
+      content: "."
+  li
+    width: 18%
+    min-height: 3em
+    line-height: 3em
+    border-top: 1px solid #ddd
+    img
+      vertical-align: middle
+    &:not(:last-child)
+      margin-right: 20px
+    &:hover
+      border-color: #333
+
+  a
+    font-size: 1em
+    font-family: Source Code Pro
+    display: block
+    color: color-default
+    text-transform: initial
+
+.cite-myself
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1.5em
+  letter-spacing: .5em;
+
+.nav-icon
+  font-family: font-icon
+  text-align: center
+  font-size: font-size
+  width: font-size
+  height: font-size
+  padding: 20px 8px
+  position: relative
+  cursor: pointer
+
+#nav-rss-link
+  &:before
+    content: "\f09e"
+
+#nav-search-btn
+  &:before
+    content: "\f002"
