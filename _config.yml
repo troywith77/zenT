@@ -2,8 +2,8 @@
 menu:
   Home: /
   Archives: /archives
-  Github: http://www.github.com/troywith77
-  About: http://tangrui.win/dove/resume/
+  Github:
+  About:
 rss: /atom.xml
 
 # Content
@@ -14,4 +14,5 @@ fancybox: true
 google_analytics:
 favicon: /favicon.ico
 
-duoshuo_shortname: troywith77
+//多说评论用户名
+duoshuo_shortname:
