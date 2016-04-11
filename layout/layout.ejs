@@ -1,5 +1,12 @@
 <%- partial('_partial/head') %>
 <body style="height: 100%">
+  <div id="bg" style="height: 300px; background: url('http://7xjr92.com1.z0.glb.clouddn.com/bg/mountain.jpeg');
+  background-position: center"></div>
+  <nav class="nav">
+    <ul>
+      <% for (var i in theme.menu){ %><li><a href="<%- theme.menu[i] %>"><%= i %></a></li><% } %>
+    </ul>
+  </nav>
   <div id="container">
     <%- partial('_partial/header') %>
     <div id="main">

@@ -9,13 +9,22 @@
 .post
   margin-bottom: 5em
   position: relative
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #fff;
+  &:after
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px
+    height: 1px
+    background: #ddd
 
   .entry-header
     margin-bottom: 2em
 
   .entry-title
-    font-size: 200%
+    font-size: 1.8em
     margin: 0
     a
       &:hover
@@ -43,7 +52,6 @@
     margin-bottom: .5em
 
   .date
-    font-family: Source Code Pro
     a
       color: #999
       letter-spacing: .2em;

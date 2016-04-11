@@ -14,7 +14,6 @@
 .blog-title
   display: inline-block
   font-size: 1.8em
-  font-family: Source Code Pro
   padding-bottom: .2em
   letter-spacing: .2em
   margin: 20px 0
@@ -41,15 +40,16 @@
 
 .nav
   width: 100%
-  margin: 10px 0
   font-size: 85%
   text-transform: uppercase
+  background: #000
   position: relative
   ul
     display: flex
-    justify-content: space-between
+    justify-content: center
+    width: 40%
     *zoom: 1
-    margin: 0
+    margin: 0 auto
     padding: 0
     &:after
       display: block
@@ -60,22 +60,18 @@
       content: "."
   li
     width: 18%
-    min-height: 3em
-    line-height: 3em
-    border-top: 1px solid #ddd
-    img
-      vertical-align: middle
-    &:not(:last-child)
-      margin-right: 20px
+    min-height: 60px
+    line-height: 60px
+    text-align: center
     &:hover
-      border-color: #333
+      background: #3ab795
 
   a
-    font-size: 1em
-    font-family: Source Code Pro
+    font-size: 1.2em
     display: block
-    color: color-default
+    color: #fff
     text-transform: initial
+    letter-spacing: .1em
 
 .cite-myself
   border-bottom: 1px solid #ddd;
