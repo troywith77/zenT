@@ -1,2 +1,5 @@
 # zenT
-simple though beautiful hexo theme designed by myself~
+
+Simple though beautiful hexo theme designed by myself ~
+
+Check [here](http://www.tangrui.win) to see the demo.
