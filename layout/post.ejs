@@ -1,1 +1,6 @@
-<%- partial('_partial/article', {post: page, index: false}) %>
+<div class="post-container">
+  <div class="toc-container">
+    <%- partial('_partial/toc', {page: page}) %>
+  </div>
+  <%- partial('_partial/article', {post: page, index: false}) %>
+</div>
